@@ -1,0 +1,476 @@
+
+/*      public   */
+a {
+	transition: color 0.5s;
+}
+a:link { color:#ffffff; text-decoration:none }
+a:visited { color:#ffffff; text-decoration:none }
+a:hover { color:red; text-decoration:none }
+a:active { color:red; text-decoration:none }
+
+body{
+	background: url("/img/bgimg.jpg");
+	margin: 0px;
+	font-family: 'Lora', Ryumin Medium KL,serif;
+	font-weight: 100;
+	font-size: 14px;
+	color: white;	
+	display: none;
+
+}
+
+li{
+	list-style:none;
+
+}
+
+iFrame{
+	border: 0; 
+    height: 400px;
+}
+/*pc*/
+
+#news{
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#news>li{
+    margin-top: 16px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: dotted 0.2px;
+    border-bottom-color: dimgrey;
+    margin-bottom: 50px;
+}
+
+.news_detail{
+    text-align: center;
+}
+
+#main{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#logo {
+	width : 100%; 
+	display: none;
+	margin: 0 auto;
+	padding-top: 35px;
+	text-align: center;
+}
+
+#logo img{
+	max-width: 100%;
+}
+#menuWrapper {
+	position: fixed;
+	Z-index: 1;
+	display: table;
+	color: white;
+	table-layout: fixed;
+	width: 100%;
+	height:40px;
+	margin: 0 auto;
+	font-family: 'Sorts Mill Goudy';
+	font-size: 18px;
+    background-color: rgba(40,40,40,1);
+	padding-top:13px;
+}
+.SPmenu-open{
+		display: none;
+	}
+#menu{
+	position: fixed;
+	Z-index: 99;
+	display: table;
+	color: white;
+	table-layout: fixed;
+	width: 90%;
+	height:30px;
+	margin: 0 auto;
+	padding-top: 4px;
+	}
+	.menuList{
+		display: none;
+	}
+
+	#sidemenu{
+		display: none;
+	}
+
+	.sns{
+    height: 60px;
+    width: 148px;
+    padding-right: 20px;
+    padding-top: 13px;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+	}
+	.sns img{
+	height: 50%;
+    bottom: 0;
+    border:solid 1px white;
+    float:right;
+	}
+
+#menu li{
+    margin-left: 25px;
+    float: left;
+	text-align: center;
+	vertical-align: middle;
+}
+#contents{
+    font-size: 16px;
+    height: 100%;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.contents-name{
+    text-decoration: underline;
+    display: none;
+}
+#listwrap{
+	width: 95%;
+	height: 80%;
+	margin: 0 auto;
+}
+
+#footer{
+    color: white;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.bxslider img{
+	height: 400px;
+}
+
+.japanese-1 {
+  font-size:40px;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  padding:0 0 0 0;
+}
+
+.japanese-2 {
+  font-size:40px;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  padding:0 0 0 0;
+}
+
+.japanese-1 li{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.japanese-2 li{
+  display: table-cell;
+  vertical-align: middle;
+}
+/*      schedule page    */
+
+.flyer {
+	float: left;
+	width: 220px;
+	height: 330px;
+}
+
+.flyer img{
+	height: 280px;
+}
+
+.schedule_line{
+	height: 100%;
+}
+
+.detail{
+	padding-left: 200px;
+}
+
+.schedule{
+	list-style: none;
+}
+
+.schedule td{
+	height: 35px;
+}
+
+#disco li{
+	height:650px;
+	margin-top: 60px;
+}
+
+.discList{
+	width: 855px;
+	height: 86%;
+	margin: auto;
+}
+
+.trackList{
+	float:left;
+	margin-left: 40px;
+	width: 410px;
+	padding-top: 45px;
+}
+
+/*      archive        */
+#archive{
+}
+
+.archive_line{
+	height: 340px;
+    border-bottom: dotted 0.2px;
+    border-bottom-color: dimgrey;
+}
+
+/*
+.archiveline_init{
+	opacity: 0;
+	height: 0px;
+    overflow: hidden;
+}
+
+.archiveline_hidden{
+	height: 0px;
+    overflow: hidden;
+	-webkit-animation-name: closeAnime;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: closeAnime;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-iteration-count: 1;
+}
+.archiveline_show{
+	-moz-animation-name: openAnime;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-iteration-count: 1;
+
+	-webkit-animation-name: openAnime;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+	height: 100%;
+}
+*/
+
+@-moz-keyframes openAnime {
+0% {opacity : 0; height:0px;}
+100% {opacity : 1; height:100%;}
+}
+
+@-moz-keyframes closeAnime {
+0% {opacity : 1; height: 100%;}
+100% {opacity : 0; height : 0px;}
+}
+
+@-webkit-keyframes openAnime {
+0% {opacity : 0; height:0px;}
+100% {opacity : 1; height:100%;}
+}
+
+@-webkit-keyframes closeAnime {
+0% {opacity : 1; height: 100%;}
+100% {opacity : 0; height : 0px;}
+}
+
+.archiveShow{
+	animation: anime1 1s ease -2s 1 normal;
+}
+
+/*      member page    */
+#member ul{
+	list-style: none;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: -ms-box;
+    box-pack: justify;
+    -moz-box-pack: justify;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-box-pack: justify; 
+    padding: 0 0 0 0;
+}
+#member ul img{
+	width : 200px;
+}
+#member ul li{
+	display: block;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+.memberList1 li{
+	padding:0 40% 0 40%;
+}
+
+.memberWrap{
+	margin: 0;
+}
+
+.group2{
+	padding: 0px 140px 0 140px !important;
+}
+
+figure{
+	width: 200px;
+	height: 320px;
+    position: relative;
+    margin: 0;
+}
+
+figcaption{
+	color: white;
+    width: 210px;
+    text-align: right;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    z-index:1;
+}
+
+.position{
+	font-size: 13px;
+}
+
+.listRow{
+	width: 100%;
+	height: 40%;
+}
+
+.member li{
+	width: 20%;
+}
+.member img{
+	width: 90%;
+}
+
+/*      discography page    */
+
+#disco{
+	list-style:none; 
+	padding:0 0 0 0;
+}
+
+.discTitle{
+	    font-size: 50px;
+	    text-align: center;
+}
+
+#disco img{
+	width: 400px;
+	float:left;
+}
+
+.discImg{
+    margin: 0 auto;
+    float: left;
+    height: 100%;
+}
+
+.discDetail{
+    margin-left: 35px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.bandcamp{
+	float:left;
+}
+
+/* SNS関連 */
+
+#snsList{
+	padding: 0;
+}
+
+#sns1 {
+	width:150px;
+	height:150px;
+	background-image:url("/img/TwitterLogo_white.png");
+	background-size:150px;
+	border:solid 1px white;
+}
+
+#sns2 {
+	width:150px;
+	height:150px;
+	background-image:url("/img/FB-f-Logo__white_144.png");
+	background-size:150px;
+}
+
+#sns3 {
+	width:150px;
+	height:150px;
+	background-image:url("/img/YouTube_light_color_icon.png");
+	background-repeat:no-repeat;
+	background-position-y: center;
+	background-size:150px;
+	border:solid 1px white;
+}
+
+.belong{
+	font-size:13px;
+}
+
+
+/*nerch*/
+#merch>ul{
+	padding: 0;
+}
+
+
+.slick-slider{
+	width: 400px;
+	right: 0;
+    left: 0;
+    margin: auto;
+}
+.slider-for img {
+    width: 100%;
+}
+
+.slider-nav{
+	height: 140px;
+    overflow: hidden;
+}
+
+.slider-nav img{
+	width: 140px;
+}
+
+.merch_detail{
+	margin: auto;
+    right: 0;
+    left: 0;
+    width: 600px;
+    padding-bottom:100px;
+}
+
+.mediaList>li{
+	text-align: center;
+}

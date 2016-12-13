@@ -1,0 +1,46 @@
+<!----- menu start -------->
+				<div id = "sidemenu">
+				    <div class="sideMenuList">
+				    <div class="menuCell"><a href = "/index.php">top</a></li></div>
+				    <div class="menuCell"><a href = "/schedule.php">schedule</a></li></div>
+				    <div class="menuCell"><a href = "/member.php">member</a></li>	</div>
+				    <div class="menuCell"><a href = "/disco.php">discography</a></li></div>
+				    <div class="menuCell"><a href = "/merch.php">merch</a></li></div>
+				    <div class="menuCell"><a href = "/media.php">multimedia</a></div>
+				    <div class="menuCell"><li><a href = "http://imperialcircusdeaddecadence.bandcamp.com/">bandcamp</a></div>
+				    </div>
+				</div>
+
+				<div id = "menuWrapper">
+					<ul id = "menu">
+						<li><a href = "/index.php">top</a></li>
+						<li><a href = "/schedule.php">schedule</a></li>
+						<li><a href = "/member.php">member</a></li>	
+						<li><a href = "/disco.php">discography</a></li>
+						<li><a href = "/merch.php">merch</a></li>
+						<li><a href = "/media.php">multimedia</a></li>
+						<li><a href = "http://imperialcircusdeaddecadence.bandcamp.com/">bandcamp</a></li>
+					</ul>
+					<div class="sns">
+						<a href = "https://www.facebook.com/ImperialCircusDeadDecadence/"><img src="/img/fblogo.png"></a>
+						<a href = "https://twitter.com/icddecadence"><img src="/img/twitterlogo.png"></a>
+					</div>
+				</div>
+				<div class = "SPmenu" href="#">
+					<span id="menubutton"onmousedown="clickstart(this)" onmouseup="clickend(this)"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span>
+					<div class="menuList SPmenu-close">
+						<a href = "/index.php"><div class="spMenuList">top</div></a>
+						<a href = "/schedule.php"><div class="spMenuList">schedule</div></a>
+						<a href = "/member.php"><div class="spMenuList">member</div></a>
+						<a href = "/disco.php"><div class="spMenuList">discography</div></a>
+						<a href = "/merch.php"><div class="spMenuList">merch</div></a>
+						<a href = "/media.php"><div class="spMenuList">multimedia</div></a>
+						<a href = "http://imperialcircusdeaddecadence.bandcamp.com/"><div class="spMenuList">bandcamp</div></a>
+					</div>
+				</div>
+				<div id = "logo">
+					<h1><img src = "/img/ICDD_logo.png" style="width:450px;"alt = "Imperial Circus Dead Decadence | Official Website"></h1>
+					<div id ="title">
+  					</div>
+				</div>
+<!----- menu end -------->
